@@ -13,4 +13,4 @@ RUN cd /opt
 RUN tar xjf /tmp/${gccfile}
 RUN ls -l
 RUN rm /tmp/${gccfile}
-RUN chmod -R -w /opt/gcc-arm-none-eabi-6-2017-g2-update
+RUN chmod -R -w /opt/gcc-arm-none-eabi-6-2017-q2-update
