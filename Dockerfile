@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-RUN apt-get update && apt-get install -y dfu-util make 
+RUN apt-get update && apt-get install -y dfu-util make bzip2
 
 RUN dpkg --add-architecture i386
 RUN apt-get update
